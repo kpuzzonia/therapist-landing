@@ -10,3 +10,6 @@
 - Playfair Display (heading and button text)
 - Poppins (paragraph text)
 - DM Serif Display (logo text)
+
+## circle back 
+- lighten-up terracotta on hero button
