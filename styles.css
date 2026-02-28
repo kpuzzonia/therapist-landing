@@ -28,7 +28,7 @@ body {
     background-color: var(--cream);
 }
 
-h2 {
+h2, h3 {
     font-family: var(--font-heading);
 }
 
@@ -142,6 +142,41 @@ h1, h2, h3, p, button, a {
 }
 
 /* specialities styling */
+#specialities-header {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 150px;
+}
+
+#specialities-container {
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    gap: 57px;
+}
+
+.specialities-div {
+    border: 3px solid var(--sage);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+}
+
+.specialities-div h3 {
+    color: var(--terracotta);
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.specialities-div p {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+}
 
 /* process styling */
 
