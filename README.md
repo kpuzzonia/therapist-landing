@@ -12,4 +12,5 @@
 - DM Serif Display (logo text)
 
 ## circle back 
-- lighten-up terracotta on hero button
+- re-evaluate cream color
+- lighten-up terracotta on hero button and possibly round edges

@@ -40,6 +40,13 @@ h1, h2, h3, p, button, a {
     color: var(--text-dark);
 }
 
+.section-header {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 150px;
+}
+
 /* navigation styling */
 #navigation {
     margin: 40px 100px;
@@ -142,13 +149,6 @@ h1, h2, h3, p, button, a {
 }
 
 /* specialities styling */
-#specialities-header {
-    text-align: center;
-    font-size: 48px;
-    font-weight: 700;
-    margin-top: 150px;
-}
-
 #specialities-container {
     margin-top: 80px;
     margin-left: 100px;
@@ -158,11 +158,12 @@ h1, h2, h3, p, button, a {
 }
 
 .specialities-div {
-    border: 3px solid var(--sage);
+    border: 2px solid var(--sage);
     padding: 30px;
     display: flex;
     flex-direction: column;
     gap: 65px;
+    flex: 1;
 }
 
 .specialities-div h3 {
@@ -179,6 +180,33 @@ h1, h2, h3, p, button, a {
 }
 
 /* process styling */
+#process-container {
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    gap: 86px;
+}
+
+#process-text-div h3 {
+    display: inline-block;
+    padding: 1px 8px;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: var(--sage);
+}
+
+#process-text-div p {
+    margin-top: 42px;
+    margin-bottom: 55px;
+    margin-left: 65px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#process-pic-div img {
+    width: 547px;
+}
 
 /* testimonials styling */
 
