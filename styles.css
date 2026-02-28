@@ -115,8 +115,31 @@ h1, h2, h3, p, button, a {
     display: block;
 }
 
-
 /* about styling */
+#about-container {
+    margin-left: 100px;
+    margin-right: 140px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 118px;
+}
+
+#about-pic-div img {
+    width: 512px;
+}
+
+#about-text-div h2 {
+    font-size: 64px;
+    font-weight: 600;
+    padding-top: 72px;
+    padding-bottom: 57px;
+}
+
+#about-text-div {
+    font-size: 22px;
+    font-weight: 300;
+}
 
 /* specialities styling */
 
