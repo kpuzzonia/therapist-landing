@@ -17,7 +17,7 @@
 :root {
   --cream: #FAF6F0;
   --sage: #C2CEC0;
-  --terracotta: #C4714A;
+  --terracotta: #C67047;
   --text-dark: #2C2C2C;
   --font-heading: 'Playfair Display', serif;
   --font-body: 'Poppins', sans-serif;
@@ -44,12 +44,12 @@ h1, h2, h3, p, button, a {
     text-align: center;
     font-size: 48px;
     font-weight: 700;
-    margin-top: 150px;
+    margin-top: 140px;
 }
 
 /* navigation styling */
 #navigation {
-    margin: 40px 100px;
+    margin: 40px 100px 45px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,9 +81,10 @@ h1, h2, h3, p, button, a {
 /* hero styling */
 #hero-container {
     margin-left: 100px;
+    padding-bottom: 20px;
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 110px;
 }
 
 #hero-text-div {
@@ -107,6 +108,7 @@ h1, h2, h3, p, button, a {
     font-size: 20px;
     font-weight: 600;
     border: none;
+    border-radius: 3px;
     padding: 10px 60px;
 }
 
@@ -194,6 +196,7 @@ h1, h2, h3, p, button, a {
     font-size: 30px;
     font-weight: 500;
     background-color: var(--sage);
+    border-radius: 3px;
 }
 
 #process-text-div p {
@@ -213,6 +216,7 @@ h1, h2, h3, p, button, a {
     margin-top: 80px;
     margin-left: 100px;
     margin-right: 100px;
+    padding-bottom: 20px;
     display: flex;
     text-align: center;
 }
@@ -229,7 +233,7 @@ h1, h2, h3, p, button, a {
 
 .testimonials-divider hr {
     width: 2px;
-    height: 200px;
+    height: 220px;
     background-color: var(--terracotta);
     border: none;
 }
@@ -244,6 +248,96 @@ h1, h2, h3, p, button, a {
 }
 
 /* contact styling */
+#contact-container {
+    background-color: var(--sage);
+}
+
+#contact-header {
+    padding-top: 40px;
+}
+
+#contact-content-div {
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 140px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+#contact-text-div {
+    flex: 1;
+}
+
+#contact-form-div {
+    flex: 1;
+}
+
+
+#contact-text-div h2 {
+    margin-bottom: 50px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#contact-text-div p {
+    margin-bottom: 90px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+#contact-divider {
+    display: flex;
+    align-items: center;
+    flex: 0;
+}
+
+#contact-divider hr {
+    width: 2px;
+    height: 550px;
+    background-color: var(--terracotta);
+    border: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 10px;
+    font-family: var(--font-heading);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+form input, textarea {
+    background-color: var(--cream);
+    border: none;
+    margin-bottom: 16px;
+    padding: 10px 14px;
+    border-radius: 4px;
+    font-family: var(--font-body);
+    font-size: 16px;
+}
+
+form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+form button {
+    margin-top: 10px;
+    border: none;
+    background-color: var(--terracotta);
+    font-family: var(--font-heading);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 13px 24px;
+    width:fit-content;
+    border-radius: 3px;
+}
 
 /* footer styling */
 #footer-container {
@@ -255,8 +349,51 @@ h1, h2, h3, p, button, a {
 
 #footer-container p {
     font-family: var(--font-heading);
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 700;
 }
 
 /* responsive styling */
+@media (max-width: 1024px) {
+    /* nav styling */
+    #navigation {
+        margin: 30px 70px;
+    }
+    
+    #navigation h1 {
+        font-size: 28px;
+    }
+
+    #main-nav-menu {
+        font-size: 18px;
+        font-weight: 500;
+        gap: 40px;
+    }
+
+    /* hero styling */
+    #hero-text-div {
+        margin-top: 80px;
+        flex: 1;
+    }
+
+    #hero-pic-div {
+        flex: 1;
+    }
+
+    #hero-text-div h2 {
+        font-size: 40px;
+        padding-bottom: 40px;
+    }
+
+    #hero-text-div p {
+        font-size: 18px;
+        padding-bottom: 50px;
+    }
+
+    #hero-text-div button {
+        font-size: 18px;
+    }
+
+    /* about styling */
+    
+}
