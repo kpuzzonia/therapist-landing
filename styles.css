@@ -209,6 +209,39 @@ h1, h2, h3, p, button, a {
 }
 
 /* testimonials styling */
+#testimonials-container {
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    text-align: center;
+}
+
+.testimonials-div {
+    flex: 1;
+    padding: 0 40px;
+}
+
+.testimonials-divider {
+    display: flex;
+    align-items: center;
+}
+
+.testimonials-divider hr {
+    width: 2px;
+    height: 200px;
+    background-color: var(--terracotta);
+    border: none;
+}
+
+#testimonials-container p {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.fancy-quote {
+    color: var(--terracotta);
+}
 
 /* contact styling */
 
