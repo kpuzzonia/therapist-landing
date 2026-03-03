@@ -691,4 +691,58 @@ form button {
     form {
         width: 100%;
     }
+
+    #footer-container {
+    margin: 40px 40px;
+}
+}
+
+@media (max-width: 480px) {
+    /* overall styling */
+    .section-header {
+        font-size: 38px;
+        margin-top: 100px;
+    }
+
+    /* nav/header styling */
+    #navigation h1 {
+        font-size: 30px;
+    }
+
+    /* hero styling */
+    #hero-text-div h2 {
+        font-size: 36px;
+        padding-bottom: 30px;
+    }
+
+    #hero-text-div {
+        margin: 40px 30px 10px 30px;
+    }
+
+    /* testimonials styling */
+    #testimonials-container p {
+        font-size: 18px;
+        padding: 20px 0;
+    }
+
+    /* contact styling */
+    #contact-text-div h2 {
+        font-size: 22px;
+    }
+
+    #contact-text-div p {
+        font-size: 18px;
+    }
+
+    /* footer styling */
+    #footer-container {
+    margin: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+
 }
