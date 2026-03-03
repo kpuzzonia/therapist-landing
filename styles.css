@@ -582,9 +582,14 @@ form button {
     }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 768px) {
+    /* header and menu styling */
     #main-nav-menu {
         display: none;
+    }
+
+    #navigation h1 {
+        font-size: 34px;
     }
 
     #hamburger {
@@ -627,5 +632,63 @@ form button {
 
     #mobileNavLinks.open {
         right: 0;
+    }
+
+    /* hero styling */
+    #hero-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    #hero-pic-div {
+        margin: 0;
+    }
+
+    #hero-pic-div img {
+        width: 100%;
+        display: block;
+    }
+
+    #hero-text-div {
+        margin: 40px 30px;
+    }
+
+    /* contact styling */
+    #contact-content-div {
+        margin-top: 70px;
+        margin-left: 70px;
+        margin-right: 70px;
+        padding-bottom: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+    #contact-text-div p {
+        margin-bottom: 50px;
+        font-size: 22px;
+        font-weight: 300;
+    }
+
+    #contact-divider {
+        display: flex;
+        align-items: center;
+        flex: 0;
+        width: 100%;
+    }
+
+    #contact-divider hr {
+        height: 2px;
+        width: 100%;
+    }
+
+    #contact-form-div {
+        width: 100%;
+    }
+
+    form {
+        width: 100%;
     }
 }
