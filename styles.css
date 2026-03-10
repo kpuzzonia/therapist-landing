@@ -93,6 +93,7 @@ h1, h2, h3, p, button, a {
 
 #hero-text-div {
     margin-top: 110px;
+    flex: 1;
 }
 
 #hero-text-div h2 {
